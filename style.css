@@ -21,8 +21,6 @@ main {
 
 nav {
     height: 54px;
-    background-color: #c4d5f9;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,10 +66,33 @@ nav .right .me {
     border: 1px solid #000;
     border-radius: 50%;
 }
-nav .right .nav-item{
-    padding-left: 2rem;
+
+nav .right .nav-item {
+    padding-left: 1.2rem;
 }
-nav .right .nav-item i{
+
+nav .right .nav-item i {
     font-size: 16px;
     font-weight: 200;
+}
+
+.hero {
+    width: 100%;
+    height: calc(70vh - 54px);
+    background-image: url('./assets/hero_lg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.hero .learn-more {
+    background-color: #005CA5;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    cursor: pointer;
 }

@@ -86,13 +86,31 @@ nav .right .nav-item i {
     display: flex;
     flex-direction: column;
     justify-content: left;
+    position: relative;
 }
 
-.hero .learn-more {
+.hero .content {
+    width: 100%;
+    max-width: 540px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position:absolute;
+    top: 4rem;
+    left:5.7rem;
+}
+.hero .content h1{
+    font-weight: 500;
+    font-size: 2.2rem;
+}
+
+.hero .content .learn-more {
     background-color: #005CA5;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
     font-size: 16px;
     cursor: pointer;
+    width:115px;
 }

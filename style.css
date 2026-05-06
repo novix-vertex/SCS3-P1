@@ -78,7 +78,7 @@ nav .right .nav-item i {
 
 .hero {
     width: 100%;
-    height: calc(70vh - 54px);
+    height: calc(60vh - 54px);
     background-image: url('./assets/hero_lg.webp');
     background-size: cover;
     background-repeat: no-repeat;
@@ -98,11 +98,11 @@ nav .right .nav-item i {
     gap: 1.5rem;
     position:absolute;
     top: 4rem;
-    left:5.7rem;
+    left:5.8rem;
 }
 .hero .content h1{
     font-weight: 500;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
 }
 
 .hero .content .learn-more {

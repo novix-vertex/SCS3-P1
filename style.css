@@ -70,11 +70,23 @@ nav .right .me {
 
 nav .right .nav-item {
     padding-left: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.2rem;
 }
 
 nav .right .nav-item i {
     font-size: 16px;
     font-weight: 200;
+}
+nav .right .nav-item img {
+    height:16px;
+    width:auto;
+}
+nav .right .nav-item .downarrow-ic {
+    height: 8px;
+    width:auto;
 }
 
 /*Hero Section*/

@@ -184,6 +184,9 @@ nav .right .nav-item i {
 .banner2 .content .learn-more-btn {
     width: 115px;
 }
+.banner{
+    margin-block: 4rem;
+}
 
 /*Products Section*/
 .products-series {
@@ -245,7 +248,7 @@ nav .right .nav-item i {
     white-space: nowrap;
 }
 
-.products-series .card .content .btn {
+.series2 .card .content .btn {
     width: 60px;
     color: #000;
     font-size: 1rem;
@@ -276,15 +279,12 @@ nav .right .nav-item i {
     background-color: #FFB900;
 }
 
-/* .products-series .card .content .new-btn {
-    width: 60px;
-    background-color: #FFB900;
-    color: #000;
-    font-size: 1rem;
+.business-label {
+    font-size: 2.2rem;
     font-weight: 500;
-    padding-block: 0.2rem;
-    border: none;
-} */
+    width: 90%;
+    transform: translate(5.5%);
+}
 
 .products-series .card .text-content h2 {
     font-weight: 500;

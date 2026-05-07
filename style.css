@@ -16,7 +16,7 @@ body {
 
 main {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 /*Navigation Section*/
@@ -180,12 +180,13 @@ nav .right .nav-item .downarrow-ic {
     font-size: 0.8rem;
 }
 
-.carousel-navigators #play-ic{
-    display:none;
+.carousel-navigators #play-ic {
+    display: none;
 }
-.carousel-navigators #pause-ic{
-    display:block;
-}   
+
+.carousel-navigators #pause-ic {
+    display: block;
+}
 
 .carousel-navigators .ri-arrow-left-s-line,
 .carousel-navigators .ri-arrow-right-s-line {
@@ -231,9 +232,13 @@ nav .right .nav-item .downarrow-ic {
     background-image: url('./assets/banner2_lg.webp');
 }
 
+.banner-section {
+    padding-inline: 5%;
+}
+
 
 .banner {
-    width: 90%;
+    width: 100%;
     height: calc(60vh - 54px);
     background-size: cover;
     background-repeat: no-repeat;
@@ -242,7 +247,6 @@ nav .right .nav-item .downarrow-ic {
     flex-direction: column;
     justify-content: left;
     position: relative;
-    transform: translate(5.5%);
     margin-block: 2rem;
 }
 
@@ -295,9 +299,9 @@ nav .right .nav-item .downarrow-ic {
 
 /*Products Section*/
 .products-series {
-    width: 90%;
-    transform: translate(5.5%);
+    width: 100%;
     margin-block: 2rem;
+    padding-inline: 5%;
 
     display: flex;
     justify-content: space-between;
@@ -319,6 +323,7 @@ nav .right .nav-item .downarrow-ic {
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 2px 2px #61616133;
+    border:2px solid #61616133;
 }
 
 .products-series .card img {
@@ -387,8 +392,9 @@ nav .right .nav-item .downarrow-ic {
 .business-label {
     font-size: 2.2rem;
     font-weight: 500;
-    width: 90%;
-    transform: translate(5.5%);
+    width: 100%;
+    padding-inline: 5%;
+
 }
 
 .products-series .card .text-content h2 {
@@ -398,9 +404,10 @@ nav .right .nav-item .downarrow-ic {
 }
 
 .follow {
-    width: 90%;
-    transform: translate(5.5%);
+    width: 100%;
     margin-bottom: 4rem;
+    padding-inline: 5%;
+
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -429,11 +436,10 @@ nav .right .nav-item .downarrow-ic {
 /*Footer Section*/
 footer {
     background-color: #F2F2F2;
-    height: 50vh;
     width: 100%;
     color: #616161;
 
-    padding-block: 1rem;
+    padding-block: 3rem;
     padding-inline: 5rem;
     display: flex;
     justify-content: space-between;
@@ -451,3 +457,4 @@ footer li {
     font-size: 0.8rem;
     margin-bottom: 1rem;
 }
+

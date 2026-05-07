@@ -119,6 +119,15 @@ nav .right .nav-item i {
 }
 
 /*Banner Section*/
+.banner1 {
+    background-image: url('./assets/banner1_lg.webp');
+}
+
+.banner2 {
+    background-image: url('./assets/banner2_lg.webp');
+}
+
+
 .banner {
     width: 90%;
     height: calc(60vh - 54px);
@@ -133,13 +142,6 @@ nav .right .nav-item i {
     margin-block: 2rem;
 }
 
-.banner1 {
-    background-image: url('./assets/banner1_lg.webp');
-}
-
-.banner2 {
-    background-image: url('./assets/banner2_lg.webp');
-}
 
 .banner .content {
     width: 100%;
@@ -183,6 +185,61 @@ nav .right .nav-item i {
     width: 115px;
 }
 
+/*Products1 Section*/
+.products-series1 {
+    width: 90%;
+    height: 55vh;
+    transform: translate(5.5%);
+    margin-block: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-series1 .card {
+    background-color: white;
+    width: 24%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 2px 2px #61616133;
+}
+
+.products-series1 .card img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.products-series1 .card .content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    flex-grow: 1;
+}
+
+.products-series1 .card .action-btn {
+    background-color: #005CA5;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    width: 115px;
+}
+
+.products-series1 .card .content .shop-xbox-x-btn .shop-xbox-s-btn {
+    width: 200px;
+}
+
+.products-series1 .card .text-content h2 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
 
 /*Footer Section*/
 footer {

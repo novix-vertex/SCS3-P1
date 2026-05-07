@@ -238,10 +238,53 @@ nav .right .nav-item i {
     width: 115px;
 }
 
-.products-series .card .content .shop-xbox-x-btn, .products-series .card .content .shop-xbox-s-btn, .products-series .card .content .explore-ai-btn {
+.products-series .card .content .shop-xbox-x-btn,
+.products-series .card .content .shop-xbox-s-btn,
+.products-series .card .content .explore-ai-btn {
     width: 200px;
     white-space: nowrap;
 }
+
+.products-series .card .content .btn {
+    width: 60px;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-block: 0.2rem;
+    border: none;
+    visibility: hidden;
+}
+
+.series2 .card .content .card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    flex-grow: 1;
+}
+
+.series2 .card .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    flex-grow: 1;
+}
+
+.products-series .card .content .new-btn {
+    visibility: visible;
+    background-color: #FFB900;
+}
+
+/* .products-series .card .content .new-btn {
+    width: 60px;
+    background-color: #FFB900;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-block: 0.2rem;
+    border: none;
+} */
 
 .products-series .card .text-content h2 {
     font-weight: 500;

@@ -73,34 +73,61 @@ nav .right .nav-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:0.2rem;
+    gap: 0.2rem;
 }
 
 nav .right .nav-item i {
     font-size: 16px;
     font-weight: 200;
 }
+
 nav .right .nav-item img {
-    height:16px;
-    width:auto;
+    height: 16px;
+    width: auto;
 }
+
 nav .right .nav-item .downarrow-ic {
     height: 8px;
-    width:auto;
+    width: auto;
 }
 
 /*Hero Section*/
 .hero {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: calc(68vh - 54px);
     width: 100%;
-    height: calc(60vh - 54px);
-    background-image: url('./assets/hero_lg.webp');
+    scroll-snap-type: x mandatory;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.hero1,
+.hero2 {
+    height: 100%;
+    min-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: left;
+    flex-shrink: 0;
     position: relative;
+    scroll-snap-align: start;
+}
+
+.hero1 {
+    background-image: url('./assets/hero_lg.webp');
+}
+
+.hero2 {
+    background-image: url('./assets/hero2-lg.webp');
 }
 
 .hero .content {
@@ -120,7 +147,7 @@ nav .right .nav-item .downarrow-ic {
     font-size: 2.5rem;
 }
 
-.hero .content .learn-more-btn {
+.hero .content button {
     background-color: #005CA5;
     color: white;
     border: none;
@@ -129,6 +156,11 @@ nav .right .nav-item .downarrow-ic {
     cursor: pointer;
     width: 115px;
 }
+
+.hero .content .shop-m365-btn {
+    width: 200px;
+}
+
 /*Carousel Navigators Section*/
 .carousel-navigators {
     display: flex;
@@ -137,44 +169,58 @@ nav .right .nav-item .downarrow-ic {
     gap: 1rem;
     padding-block: 1rem;
 }
-.carousel-navigators i{
+
+.carousel-navigators i {
     font-size: 1.5rem;
     cursor: pointer;
 }
-.carousel-navigators .ri-circle-fill, .carousel-navigators .ri-circle-line{
+
+.carousel-navigators .ri-circle-fill,
+.carousel-navigators .ri-circle-line {
     font-size: 0.8rem;
 }
 
-.carousel-navigators .ri-arrow-left-s-line, .carousel-navigators .ri-arrow-right-s-line{
+.carousel-navigators #play-ic{
+    display:none;
+}
+.carousel-navigators #pause-ic{
+    display:block;
+}   
+
+.carousel-navigators .ri-arrow-left-s-line,
+.carousel-navigators .ri-arrow-right-s-line {
     font-size: 2rem;
     font-weight: 100;
 }
 
 /*Shop Series Section*/
-.shop-series{
+.shop-series {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2.5rem;
     padding-block: 2.5rem;
 }
-.shop-series div{
+
+.shop-series div {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
 }
-.shop-series div img{
-    height:40px;
-    width:40px;
+
+.shop-series div img {
+    height: 40px;
+    width: 40px;
     aspect-ratio: 1/1;
 }
-.shop-series div a{
+
+.shop-series div a {
     font-size: 1rem;
     font-weight: 600;
     color: #0067B8;
-}   
+}
 
 /*Banner Section*/
 .banner1 {

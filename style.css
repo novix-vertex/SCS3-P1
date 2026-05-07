@@ -117,6 +117,26 @@ nav .right .nav-item i {
     cursor: pointer;
     width: 115px;
 }
+/*Carousel Navigators Section*/
+.carousel-navigators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding-block: 1rem;
+}
+.carousel-navigators i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.carousel-navigators .ri-circle-fill, .carousel-navigators .ri-circle-line{
+    font-size: 0.8rem;
+}
+
+.carousel-navigators .ri-arrow-left-s-line, .carousel-navigators .ri-arrow-right-s-line{
+    font-size: 2rem;
+    font-weight: 100;
+}
 
 /*Shop Series Section*/
 .shop-series{

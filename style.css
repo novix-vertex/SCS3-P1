@@ -185,10 +185,9 @@ nav .right .nav-item i {
     width: 115px;
 }
 
-/*Products1 Section*/
-.products-series1 {
+/*Products Section*/
+.products-series {
     width: 90%;
-    height: 55vh;
     transform: translate(5.5%);
     margin-block: 2rem;
 
@@ -196,7 +195,15 @@ nav .right .nav-item i {
     justify-content: space-between;
 }
 
-.products-series1 .card {
+.series1 {
+    height: 55vh;
+}
+
+.series2 {
+    height: 70vh;
+}
+
+.products-series .card {
     background-color: white;
     width: 24%;
     height: 100%;
@@ -206,13 +213,13 @@ nav .right .nav-item i {
     box-shadow: 2px 2px #61616133;
 }
 
-.products-series1 .card img {
+.products-series .card img {
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.products-series1 .card .content {
+.products-series .card .content {
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -221,7 +228,7 @@ nav .right .nav-item i {
     flex-grow: 1;
 }
 
-.products-series1 .card .action-btn {
+.products-series .card .action-btn {
     background-color: #005CA5;
     color: white;
     border: none;
@@ -231,11 +238,12 @@ nav .right .nav-item i {
     width: 115px;
 }
 
-.products-series1 .card .content .shop-xbox-x-btn .shop-xbox-s-btn {
+.products-series .card .content .shop-xbox-x-btn, .products-series .card .content .shop-xbox-s-btn, .products-series .card .content .explore-ai-btn {
     width: 200px;
+    white-space: nowrap;
 }
 
-.products-series1 .card .text-content h2 {
+.products-series .card .text-content h2 {
     font-weight: 500;
     font-size: 1.8rem;
     margin-bottom: 1rem;

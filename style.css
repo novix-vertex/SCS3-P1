@@ -118,6 +118,32 @@ nav .right .nav-item i {
     width: 115px;
 }
 
+/*Shop Series Section*/
+.shop-series{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    padding-block: 2.5rem;
+}
+.shop-series div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.shop-series div img{
+    height:40px;
+    width:40px;
+    aspect-ratio: 1/1;
+}
+.shop-series div a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0067B8;
+}   
+
 /*Banner Section*/
 .banner1 {
     background-image: url('./assets/banner1_lg.webp');

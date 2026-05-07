@@ -184,7 +184,8 @@ nav .right .nav-item i {
 .banner2 .content .learn-more-btn {
     width: 115px;
 }
-.banner{
+
+.banner {
     margin-block: 4rem;
 }
 
@@ -290,6 +291,35 @@ nav .right .nav-item i {
     font-weight: 500;
     font-size: 1.8rem;
     margin-bottom: 1rem;
+}
+
+.follow {
+    width: 90%;
+    transform: translate(5.5%);
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.follow .social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.follow h2 {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.follow .social-icons a {
+    color: #000;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.follow .social-icons a .ri-youtube-fill {
+    font-size: 2rem;
 }
 
 /*Footer Section*/

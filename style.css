@@ -114,3 +114,26 @@ nav .right .nav-item i {
     cursor: pointer;
     width:115px;
 }
+
+footer{
+    background-color: #F2F2F2;
+    height:50vh;
+    width:100%;
+    color:#616161;
+
+    padding-block:1rem;
+    padding-inline:5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer h4{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+footer li{
+    list-style: none;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}

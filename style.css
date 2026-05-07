@@ -448,8 +448,18 @@ footer li {
 
 /*Media Queries*/
 @media (max-width: 768px) {
-    nav {
-        display: none;
+    nav{
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        padding-inline:5%;
+        padding-block:rem;
+    }
+    nav .left menu{
+        display:none;
+    }
+    nav .right{
+        /* display:none; */
     }
 
     footer {

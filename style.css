@@ -219,7 +219,7 @@ nav .right .nav-item .downarrow-ic {
 
 .banner-section {
     padding-inline: 5%;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 
@@ -380,7 +380,7 @@ nav .right .nav-item .downarrow-ic {
     font-weight: 500;
     width: 100%;
     padding-inline: 5%;
-    padding-top:4rem;
+    padding-top: 4rem;
 
 }
 
@@ -448,18 +448,16 @@ footer li {
 
 /*Media Queries*/
 @media (max-width: 768px) {
-    nav{
+    nav {
         justify-content: space-between;
         align-items: center;
         gap: 1rem;
-        padding-inline:5%;
-        padding-block:rem;
+        padding-inline: 5%;
+        padding-block: rem;
     }
-    nav .left menu{
-        display:none;
-    }
-    nav .right{
-        /* display:none; */
+
+    nav .left menu {
+        display: none;
     }
 
     footer {
@@ -489,17 +487,6 @@ footer li {
         padding: 2rem;
     }
 
-    .hero {
-        height: 100%;
-    }
-
-    .hero1,
-    .hero2,
-    .banner {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-    }
 
     .hero .content,
     .banner .content {
@@ -522,5 +509,30 @@ footer li {
     .series2 {
         height: auto;
     }
+
+    .hero {
+        height: auto;
+        overflow-x: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .hero1,
+    .hero2 {
+        height: auto;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .hero img,
+    .hero1 img,
+    .hero2 img,
+    .banner img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
 
 }
